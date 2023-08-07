@@ -60,10 +60,9 @@ p{
     color:rgb(225, 225, 225);
 }
 /* Title Image */
-.title-image{
-    width: 60%;
-    transform: rotate(10deg);
-    box-shadow: 6px 4px 2px 2px rgb(253, 253, 253);
+.title-image {
+  width: 60%;
+  box-shadow: 4px 4px 2px 2px rgb(253, 253, 253);
 }
 /* Features Section */
 #features{
@@ -168,12 +167,4 @@ p{
     color: rgb(195, 133, 17);
     transition: 1s;
 }
-@media (max-width: 1028px) {
-  .title-image {
-    padding-top: 40px;
-    position: static;
-    transform: none;
-    border: none;
-    box-shadow: none;
-  }
-}
+
