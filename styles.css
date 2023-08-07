@@ -168,3 +168,12 @@ p{
     color: rgb(195, 133, 17);
     transition: 1s;
 }
+@media (max-width: 1028px) {
+  .title-image {
+    padding-top: 40px;
+    position: static;
+    transform: none;
+    border: none;
+    box-shadow: none;
+  }
+}
